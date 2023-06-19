@@ -33,21 +33,36 @@ switch (opcionCuota) {
     precioPorCuota = precioTotal / opcionCuota;
     precioTotal = precioTotal.toFixed(2);
     precioPorCuota = precioPorCuota.toFixed(2);
-    alert("El precio total en 6 cuotas es: " + precioTotal);
+    alert(
+      "El precio total en 6 cuotas es: " +
+        precioTotal +
+        "y cada cuotas es de: " +
+        precioPorCuota
+    );
     break;
   case 9:
     precioTotal = precioIva + precioIva * 0.9;
     precioPorCuota = precioTotal / opcionCuota;
     precioTotal = precioTotal.toFixed(2);
     precioPorCuota = precioPorCuota.toFixed(2);
-    alert("El precio total en 9 cuotas es: " + precioTotal);
+    alert(
+      "El precio total en 9 cuotas es: " +
+        precioTotal +
+        "y cada cuotas es de: " +
+        precioPorCuota
+    );
     break;
   case 12:
     precioTotal = precioIva + precioIva * 1.2;
     precioPorCuota = precioTotal / opcionCuota;
     precioTotal = precioTotal.toFixed(2);
     precioPorCuota = precioPorCuota.toFixed(2);
-    alert("El precio total en 12 cuotas es: " + precioTotal);
+    alert(
+      "El precio total en 12 cuotas es: " +
+        precioTotal +
+        "y cada cuotas es de: " +
+        precioPorCuota
+    );
     break;
   case 1:
     precioTotal = precioIva;
